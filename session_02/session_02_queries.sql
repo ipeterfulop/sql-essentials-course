@@ -102,16 +102,16 @@ SELECT first_name,
        hire_date,
        salary  as current_salary,
        CASE
-           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YMD') > hire_date)
+           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YYYY-MM-DD') > hire_date)
                THEN salary * 1.05
-           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YMD') < hire_date)
+           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YYYY-MM-DD') < hire_date)
                THEN salary * 1.03
            ELSE salary * 1.1
            END as new_salary,
        CASE
-           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YMD') > hire_date)
+           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YYYY-MM-DD') > hire_date)
                THEN salary * 0.05
-           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YMD') < hire_date)
+           WHEN (SUBSTR(band, 1, 6) = 'Senior') AND (TO_DATE('2020-01-01', 'YYYY-MM-DD') < hire_date)
                THEN salary * 0.03
            ELSE salary * 1.1
            END as salary_increase
@@ -170,7 +170,7 @@ WHERE (date_of_last_medical_analysis IS NULL)
 -- and March 31, 2023, and whose salaries fall within the range of 2800 to 4000.
 SELECT first_name, last_name, salary, hire_date
 FROM practice_02.employees
-WHERE (hire_date BETWEEN to_date('2022-01-01', 'YMD') AND TO_DATE('2023-03-31', 'Y-M-D'))
+WHERE (hire_date BETWEEN to_date('2022-01-01', 'YYYY-MM-DD') AND TO_DATE('2023-03-31', 'YYYY-MM-DD'))
   AND salary BETWEEN 2800 AND 4000;
 
 -- Please provide a list of employees' first names, last names, and hire dates, ordered by their date of joining the
@@ -193,7 +193,7 @@ SELECT CASE
        unit_of_work,
        salary
 FROM practice_02.employees
-WHERE hire_date < TO_DATE('2023-01-01', 'YMD')
+WHERE hire_date < TO_DATE('2023-01-01', 'YYYY-MM-DD')
 ORDER BY full_name ASC;
 
 -- Obtain the information for the top 5 employees who have the highest salaries, which should include their first name,
@@ -203,7 +203,7 @@ SELECT first_name, last_name, salary
 FROM practice_02.employees
 WHERE unit_of_work = 'Consulting 1'
 ORDER BY salary DESC
-LIMIT 5
+LIMIT 5;
 
 -- Page: 35
 -- display the current date
@@ -227,7 +227,7 @@ SELECT first_name,
        EXTRACT(YEAR FROM current_date, hire_date)
 FROM practice_02.employees;
 
--- Using the EXTRACT function
+-- Using the EXTRACT() function
 -- Page:38
 -- day of week based on ISO 8601 Monday (1) to Sunday (7)
 SELECT EXTRACT(ISODOW FROM current_date);
@@ -238,3 +238,14 @@ SELECT EXTRACT(HOUR FROM TIMESTAMP '2016-12-31 13:30:15');
 -- extracting the quarter from an interval
 SELECT EXTRACT(QUARTER FROM INTERVAL '6 years 5 months 4 days 3 hours 2 minutes 1 second');
 
+-- Using the TO_DATE() function
+-- Page:39
+
+-- example using the 'YYYY Mon DD' format
+SELECT TO_DATE('2023 Oct 20','YYYY Mon DD');
+
+-- example using the 'MM-DD-YYYY' format
+SELECT TO_DATE('03-02-2001','MM-DD-YYYY');
+
+-- example using the 'YYYY-MM-DD'  format
+SELECT TO_DATE('2023-09-25','YYYY-MM-DD');
