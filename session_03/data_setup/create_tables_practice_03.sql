@@ -1,27 +1,27 @@
 CREATE SCHEMA IF NOT EXISTS practice_03;
 SET SEARCH_PATH TO practice_03;
 
-CREATE TABLE business_units
+CREATE TABLE practice_03.business_units
 (
     id                  serial PRIMARY KEY,
     name                text NOT NULL,
     activity_start_date date NOT NULL
 );
 
-CREATE TABLE bands
+CREATE TABLE practice_03.bands
 (
     id           SERIAL PRIMARY KEY,
     name         VARCHAR(255) NOT NULL,
     next_band_id INTEGER
 );
 
-CREATE TABLE job_titles
+CREATE TABLE practice_03.job_titles
 (
     id   SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE countries
+CREATE TABLE practice_03.countries
 (
     code         VARCHAR PRIMARY KEY,
     name         VARCHAR,
@@ -36,7 +36,7 @@ CREATE TABLE countries
     cap_lat      REAL
 );
 
-CREATE TABLE languages
+CREATE TABLE practice_03.languages
 (
     id       INTEGER PRIMARY KEY,
     code     VARCHAR,
@@ -45,7 +45,7 @@ CREATE TABLE languages
     official BOOLEAN
 );
 
-CREATE TABLE employees
+CREATE TABLE practice_03.employees
 (
     id                            SERIAL PRIMARY KEY,
     first_name                    VARCHAR(25) NOT NULL,
@@ -67,4 +67,24 @@ CREATE TABLE employees
     residence_country_id          VARCHAR     NOT NULL,
     native_language_id            INTEGER REFERENCES languages (id),
     preferred_language_id         INTEGER REFERENCES languages (id)
+);
+
+-- creating table projects
+CREATE TABLE practice_03.projects (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    start_date DATE DEFAULT NULL,
+    completion_date DATE DEFAULT NULL,
+    cancellation_date DATE DEFAULT NULL
+);
+
+
+-- creating table project_assignments
+CREATE TABLE project_assignments (
+    id SERIAL PRIMARY KEY,
+    employee_id INT REFERENCES employees(id),
+    project_id INT REFERENCES projects(id),
+    start_date DATE NOT NULL,
+    end_date DATE DEFAULT NULL,
+    percentage INT CHECK (percentage BETWEEN 20 AND 100) DEFAULT 20
 );

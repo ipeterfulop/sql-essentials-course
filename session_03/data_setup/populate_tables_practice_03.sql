@@ -1254,3 +1254,58 @@ VALUES
 UPDATE employees SET lead_employee_id=10 WHERE id=COALESCE(lead_employee_id, -1);
 UPDATE employees SET lead_employee_id=NULL WHERE id=10;
 
+-- populate table projects
+
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (1, 'DataSculpt: Streamlined ETL Pipelines', '2023-02-11', '2023-08-14', NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (2, 'BIOasis: Business Intelligence Optimization & Analytics', '2023-03-13', NULL, NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (3, 'EnginFlow: Real-time Data Processing Solutions', '2023-01-01', '2023-10-01', NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (4, 'InsightForge: BI Dashboard & Reporting Suite', '2022-12-01', NULL, NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (5, 'DeltaDive: Incremental Data Lake Enhancements', '2023-02-01', '2023-09-01', NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (6, 'LuminaLink: Advanced Data Visualization Tools', '2023-01-15', NULL, '2023-06-01');
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (7, 'PivotPulse: Dynamic BI Query Engine', '2021-01-15', NULL, NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (8, 'NexaNode: Scalable Data Warehouse Solutions', '2023-04-17', NULL, NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (9, 'StreamSync: Continuous Data Integration Hub', NULL, NULL, NULL);
+INSERT INTO practice_03.projects (id, name, start_date, completion_date, cancellation_date)
+VALUES (10, 'VistaVeer: Predictive Analytics & BI Support', NULL, NULL, NULL);
+
+-- populate project assignments
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (1, 1, 2, '2023-01-01', 60);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (2, 1, 7, '2023-01-05', 40);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (3, 2, 2, '2023-01-01', 75);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (4, 2, 8, '2023-01-05', 25);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (5, 3, 2, '2023-01-01', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (6, 4, 8, '2023-01-05', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (7, 6, 7, '2023-01-05', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (8, 7, 7, '2023-01-05', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (9, 9, 7, '2023-01-05', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (10, 10, 7, '2023-01-05', 30);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (11, 10, 8, '2023-01-05', 70);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, end_date, percentage)
+VALUES (12, 10, 1, '2023-03-05', '2023-05-05', 70);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, end_date, percentage)
+VALUES (13, 1, 1, '2023-03-05', '2023-05-15', 50);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (14, 11, 8, '2023-01-05', 100);
+INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
+VALUES (14, 12, 8, '2023-01-05', 100);
+
