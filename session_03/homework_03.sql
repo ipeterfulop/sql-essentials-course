@@ -1,5 +1,9 @@
 set search_path to practice_03;
 
+-- By solving these exercises you can receive up to 1.5 points.
+-- The deadline for submission is 10:59 AM on 2nd of November 2023.
+-- Task 11 is optional and can give you up to 0.25 points.
+
 -- HW 3.1
 -- List all the ongoing projects
 -- Hints: a project is started/ongoing if start_date is not null (and completion_date, cancellation_date is NULL) and start_date is on or before the current date
@@ -50,3 +54,8 @@ set search_path to practice_03;
 -- HW 3.10
 -- Retrieve senior employees preferred language of communication. Each language should only appear once.
 -- Your solution should go here
+
+-- HW 3.11(optional)
+-- List the employees id, full name, their team lead full name, their band level, and their potentially next band level.
+-- The list should also include employees who dont have a team lead.
+-- The list should also include employees who are at the highest band level.

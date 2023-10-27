@@ -207,6 +207,8 @@ INSERT INTO practice_03.countries (code, name, continent, region, surface_area, 
 INSERT INTO practice_03.countries (code, name, continent, region, surface_area, indep_year, local_name, gov_form, capital, cap_long, cap_lat) VALUES ('VIR', 'Virgin Islands, U.S.', 'North America', 'Caribbean', 347, null, 'Virgin Islands of the United States', 'US Territory', 'Charlotte Amalie', -64.8963, 18.3358);
 INSERT INTO practice_03.countries (code, name, continent, region, surface_area, indep_year, local_name, gov_form, capital, cap_long, cap_lat) VALUES ('ZWE', 'Zimbabwe', 'Africa', 'Eastern Africa', 390757, 1980, 'Zimbabwe', 'Republic', 'Harare', 31.0672, -17.8312);
 INSERT INTO practice_03.countries (code, name, continent, region, surface_area, indep_year, local_name, gov_form, capital, cap_long, cap_lat) VALUES ('PSE', 'Palestine', 'Asia', 'Middle East', 6257, null, 'Filastin', 'Autonomous Area', null, null, null);
+INSERT INTO practice_03.countries (code, name, continent, region, surface_area, indep_year, local_name, gov_form, capital, cap_long, cap_lat) VALUES ('ROM', 'Romania', 'Europe', 'Eastern Europe', 238397.0, 1877, 'România', 'Republic', 'Bucharest', 26.1063, 44.4268);
+
 
 -- adding entries to the languages table
 INSERT INTO practice_03.languages (id, code, name, percent, official) VALUES (1, 'AFG', 'Dari', 50, true);
