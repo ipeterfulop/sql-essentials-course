@@ -1,20 +1,25 @@
 # Learning session 3
 <!-- TOC -->
-
+* [Learning session 3](#learning-session-3)
   * [Topics](#topics)
   * [Additional information](#additional-information)
   * [Data setup](#data-setup)
+  * [Homework assignment](#homework-assignment)
 <!-- TOC -->
 
 ## Topics
-In the third learning session we will cover combining data from multiple tables. 
-We will explore the different types of joins:
-- INNER JOIN 
-- OUTER JOINs (LEFT, RIGHT, FULL)
-- SELF JOIN
-- CROSS JOIN
+During our third instructional session, we will delve into the topic of **combining data from various tables**. This will involve a comprehensive exploration of the diverse types of joins available in SQL.   
+Specifically, we will discuss:
 
-and how to use them.
+- The `INNER JOIN`, which fetches records that have matching values in both tables.
+- The various forms of OUTER JOINs, which include:
+  - `LEFT OUTER JOIN`: This retrieves all records from the left table, and the matched records from the right table.
+  - `RIGHT OUTER JOIN`: Contrary to the LEFT JOIN, this fetches all records from the right table and the corresponding matched records from the left table.
+  - `FULL OUTER JOIN`: This type of join returns all records when there is a match in either the left or the right table.
+  - The `SELF JOIN`, which is a technique to join a table with itself.
+  - And lastly, the `CROSS JOIN`, which produces the Cartesian product of two tables.
+
+We will also provide guidance on the practical application and best scenarios for utilizing each of these joins.
 
 ## Additional information
 If you would like to discover what columns of the ```employees``` table are 
@@ -52,8 +57,14 @@ If you prefer using diagrams to discover how tables are related, you can use thi
 
 ## Data setup
 The tables related to this learning session were created in the ```practice_03``` schema using the script
-[`create_tables.sql`](data_setup/create_tables.sql).  
+[`create_tables_practice_03.sql`](data_setup/create_tables_practice_03.sql).  
 Tables were populated with data using the script 
 [`populate_tables_practice_03.sql`](data_setup/populate_tables_practice_03.sql).
 You can use these scripts to create the tables and populate them with data in your own local database.
+
+## Homework assignment
+The homework assignment for this session can be found in the
+[homework_03.sql](homework_03.sql) file and must be submitted prior to the next session.  
+By solving these exercises you can receive up to 1.5 points.  
+Task 11 is optional and can give you up to 0.25 points.
 
