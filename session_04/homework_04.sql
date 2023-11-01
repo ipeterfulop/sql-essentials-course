@@ -43,3 +43,38 @@ SET search_path TO practice_04;
 -- salary in their respective bands.
 -- Also show the difference between the employee's salary and the average salary for the band.
 -- Hint: Utilize a correlated subquery to determine the average salary for each employee's band in the SELECT clause.
+
+-- Your solution goes here
+
+-- Assignment 4.6
+-- Obtain the following information for employees who are allocated more annual leave days than their corresponding team leads:
+-- employee ID, employee full name, team lead's ID, team lead's full name, and the difference in leave days between the employee and their team lead.
+-- Do not use any subquery in the solution
+
+
+-- Assignment 4.7
+-- Same as 4.6, but use a subquery to obtain the team lead's yearly leave days.
+
+-- Your solution goes here
+
+-- Assignment 4.8
+-- Obtain the following information for employees who are allocated more annual leave days than their corresponding team leads:
+-- employee ID, employee full name, team lead's ID, team lead's full name, and the difference in leave days between the employee and their team lead.
+
+-- Your solution goes here
+
+
+-- Assignment 4.9
+-- Display the employee ID, first name, last name, and the name of the customer they are currently assigned to for an active(ongoing) project.
+-- Ensure the results do not contain any repeated rows.
+-- Note: Avoid using subqueries for this task.
+
+-- Your solution goes here
+
+
+-- Assignment 4.10 (optional, for 0.25 extra points)
+-- Display the employee ID, first name, last name, and the name of the on-going project they are currently assigned to (project_assignments.end_date is null)
+-- for an active(ongoing) project where the number of employees assigned to the project is greater than 4.
+
+-- Your solution goes here
+

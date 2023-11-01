@@ -1309,5 +1309,5 @@ VALUES (13, 1, 1, '2023-03-05', '2023-05-15', 50);
 INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
 VALUES (14, 11, 8, '2023-01-05', 100);
 INSERT INTO project_assignments (id, employee_id, project_id, start_date, percentage)
-VALUES (14, 12, 8, '2023-01-05', 100);
+VALUES (15, 12, 8, '2023-01-05', 100);
 

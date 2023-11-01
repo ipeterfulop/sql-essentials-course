@@ -88,3 +88,9 @@ CREATE TABLE project_assignments (
     end_date DATE DEFAULT NULL,
     percentage INT CHECK (percentage BETWEEN 20 AND 100) DEFAULT 20
 );
+
+
+ALTER TABLE employees
+    ADD CONSTRAINT employees_residence_country_id_fkey
+        FOREIGN KEY (residence_country_id)
+            REFERENCES countries (code);

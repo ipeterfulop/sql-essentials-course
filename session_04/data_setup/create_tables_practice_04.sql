@@ -1,27 +1,27 @@
-CREATE SCHEMA IF NOT EXISTS practice_03;
-SET SEARCH_PATH TO practice_03;
+CREATE SCHEMA IF NOT EXISTS practice_04;
+SET SEARCH_PATH TO practice_04;
 
-CREATE TABLE practice_03.business_units
+CREATE TABLE practice_04.business_units
 (
     id                  serial PRIMARY KEY,
     name                text NOT NULL,
     activity_start_date date NOT NULL
 );
 
-CREATE TABLE practice_03.bands
+CREATE TABLE practice_04.bands
 (
     id           SERIAL PRIMARY KEY,
     name         VARCHAR(255) NOT NULL,
     next_band_id INTEGER
 );
 
-CREATE TABLE practice_03.job_titles
+CREATE TABLE practice_04.job_titles
 (
     id   SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL
 );
 
-CREATE TABLE practice_03.countries
+CREATE TABLE practice_04.countries
 (
     code         VARCHAR PRIMARY KEY,
     name         VARCHAR,
@@ -36,7 +36,7 @@ CREATE TABLE practice_03.countries
     cap_lat      REAL
 );
 
-CREATE TABLE practice_03.languages
+CREATE TABLE practice_04.languages
 (
     id       INTEGER PRIMARY KEY,
     code     VARCHAR,
@@ -45,7 +45,7 @@ CREATE TABLE practice_03.languages
     official BOOLEAN
 );
 
-CREATE TABLE practice_03.employees
+CREATE TABLE practice_04.employees
 (
     id                            SERIAL PRIMARY KEY,
     first_name                    VARCHAR(25) NOT NULL,
@@ -77,7 +77,7 @@ CREATE TABLE customers (
 
 
 -- creating table projects
-CREATE TABLE practice_03.projects (
+CREATE TABLE practice_04.projects (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     start_date DATE DEFAULT NULL,
@@ -96,3 +96,8 @@ CREATE TABLE project_assignments (
     end_date DATE DEFAULT NULL,
     percentage INT CHECK (percentage BETWEEN 20 AND 100) DEFAULT 20
 );
+
+ALTER TABLE employees
+    ADD CONSTRAINT employees_residence_country_id_fkey
+        FOREIGN KEY (residence_country_id)
+            REFERENCES countries (code);
