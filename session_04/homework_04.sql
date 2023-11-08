@@ -66,6 +66,8 @@ SET search_path TO practice_04;
 -- belongs (bands.name). Alongside the information for each employee, also calculate and display the average
 -- number of yearly leave days for all employees within the same band as the employee. T
 -- his average should be shown as a separate column (avg_leave_days).
+-- Hint: Use, generalize the query below in your solution:
+-- SELECT AVG(yearly_leave_days) FROM employees e WHERE e.band_id = 2;
 
 -- Your solution goes here
 
