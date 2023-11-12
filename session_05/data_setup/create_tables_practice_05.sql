@@ -108,7 +108,7 @@ CREATE TABLE practice_05.activity_categories (
     name VARCHAR(100) UNIQUE NOT NULL
 );
 
-CREATE TABLE practice_05.activities
+CREATE TABLE practice_05.activity_logs
 (
     id SERIAL PRIMARY KEY,
     project_assignment_id INTEGER REFERENCES project_assignments (id),
@@ -116,4 +116,18 @@ CREATE TABLE practice_05.activities
     date_of_activity DATE NOT NULL,
     hours_worked NUMERIC(3, 2) NOT NULL CHECK (hours_worked > 0 AND hours_worked <= 8)
 );
+
+-- CREATE TABLE practice_05.leave_days
+-- (
+--     id SERIAL PRIMARY KEY,
+--     employee_id INTEGER REFERENCES employees (id),
+--     start_date DATE NOT NULL,
+--     end_date DATE NOT NULL,
+--     leave_type VARCHAR(255) NOT NULL CHECK (leave_type IN ('ANNUAL', 'SICK', 'PARENTAL', 'UNPAID')),
+--     status VARCHAR(255) NOT NULL CHECK (status IN ('PENDING', 'APPROVED', 'REJECTED')),
+--     requested_date DATE NOT NULL,
+--     approved_date DATE,
+--     rejected_date DATE,
+--     comments VARCHAR(255)
+-- );
 
