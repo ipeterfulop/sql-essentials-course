@@ -44,6 +44,11 @@ Additionally, the results should be sorted in decreasing order based on the aver
 | Data engineer          |             2920 |
 | Manager                |             2625 |
 
+
+```{postgresql}
+-- Your solution goes here
+```
+
 ### Assignment 5.2
 Show the minimum, maximum, and average age of employees in every business unit.  
 Omit employees who are not assigned 
@@ -60,6 +65,12 @@ Order the results by the business unit's name in ascending order.
 | Managed services    |           26 |           31 |           28 |
 | Team augmentation 1 |           25 |           31 |           28 |
 | Team Augmentation 2 |           25 |           38 |           30 |
+
+
+```{postgresql}
+-- Your solution goes here
+```
+
 
 ### Assignment 5.3
 Calculate the total number of employees in each business unit. For employees without a business 
@@ -80,6 +91,12 @@ Sort the results by the name of the business unit in ascending order.
 | Team Augmentation 2            |                        5 |
 | No business unit assigned yet  |                        6 |
 
+
+```{postgresql}
+-- Your solution goes here
+```
+
+
 ### Assignment 5.4 
 Identify the three most prevalent official languages based on the number of countries where 
 they are recognized as official. Display each language's name along with the count of countries 
@@ -92,6 +109,12 @@ recognizing it as an official language.
 | English       |                       53 |
 | French        |                       31 |
 | Arabic        |                       24 |
+
+
+```{postgresql}
+-- Your solution goes here
+```
+
 
 ### Assignment 5.5
 Display the names, capitals, and official languages of countries where the official 
@@ -125,6 +148,12 @@ Please note that some countries have more than one official language.
 | Zimbabwe                 | Harare       | English           |
 
 
+
+```{postgresql}
+-- Your solution goes here
+```
+
+
 ### Assignment 5.6
 Calculate the number of different job titles held by employees assigned to each project.    
 Sort this list first by project name in ascending order, and then by the count of 
@@ -151,6 +180,12 @@ by the project name and the job title name.
 | PivotPulse: Dynamic BI Query Engine                     | Data Scientist        |                    1 |
 
 
+```{postgresql}
+-- Your solution goes here
+```
+
+
+
 ### Assignment 5.7
 For each business unit, determine the count of distinct job titles held by its employees.  
 Arrange this list initially by the name of the business unit, and then by the number of 
@@ -172,6 +207,12 @@ employees holding each job title. Exclude any employees who have either a NULL b
 | Team Augmentation 2 | BI Support specialist |                    3 |
 | Team Augmentation 2 | Data Scientist        |                    2 |
 
+
+```{postgresql}
+-- Your solution goes here
+```
+
+
 ### Assignment 5.8 (optional, 0.25 points)
 Display a list of employees' full names, their associated business units, and salaries for those earning 
 the second highest salary within their respective business units.  
@@ -179,12 +220,18 @@ Order the list by the business unit name in ascending order, and then by the emp
 
 **Expected output:** 6 rows
 
-| full_name     | business_unit       | salary |
-|---------------|---------------------|--------|
-| Katalin Varga | Consulting 1        | 2600   |
-| Gabor Kovacs  | Consulting 2        | 3500   |
-| Istvan Kiss   | Consulting 2        | 3500   |
-| Miklos Kovacs | Managed services    | 3100   |
-| Bela Nagy     | Team augmentation 1 | 3100   |
-| Anna Nagy     | Team Augmentation 2 | 3800   |
+| full_name     | business_unit       |  salary |
+|---------------|---------------------|--------:|
+| Katalin Varga | Consulting 1        |    2600 |
+| Gabor Kovacs  | Consulting 2        |    3500 |
+| Istvan Kiss   | Consulting 2        |    3500 |
+| Miklos Kovacs | Managed services    |    3100 |
+| Bela Nagy     | Team augmentation 1 |    3100 |
+| Anna Nagy     | Team Augmentation 2 |    3800 |
+
+
+```{postgresql}
+-- Your solution goes here
+```
+
 
