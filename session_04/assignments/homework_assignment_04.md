@@ -1,6 +1,23 @@
 # Homework assignment 04
 
-## Purposes
+<!-- TOC -->
+* [Homework assignment 04](#homework-assignment-04)
+  * [Objectives](#objectives)
+  * [Dedicated schema](#dedicated-schema)
+  * [Assignments](#assignments)
+    * [Assignment 4.1](#assignment-41)
+    * [Assignment 4.2](#assignment-42)
+    * [Assignment 4.3](#assignment-43)
+    * [Assignment 4.4](#assignment-44)
+    * [Assignment 4.5 (4.4+)](#assignment-45-44)
+    * [Assignment 4.6](#assignment-46)
+    * [Assignment 4.7](#assignment-47)
+    * [Assignment 4.8](#assignment-48)
+    * [Assignment 4.9](#assignment-49)
+    * [Assignment 4.10 (optional, for 0.25 extra points)](#assignment-410-optional-for-025-extra-points)
+<!-- TOC -->
+
+## Objectives
 The aim of this homework is to gain an understanding of both non-correlated and correlated subqueries.
 
 ## Dedicated schema
@@ -11,8 +28,8 @@ Please set the search path accordingly:
 ```{postgresql}
 SET search_path TO practice_04;
 ```
-
-# Assignment 4.1
+## Assignments
+### Assignment 4.1
 
 Which languages are spoken in both Argentina and Chile?  
 Do not include generic terms such as `indigenous`, `Other`, or `unspecified`.   
@@ -32,7 +49,7 @@ subqueries to get the key (`code`) of countries.
 -- Your solution goes here
 ```
 
-## Assignment 4.2
+### Assignment 4.2
 
 Obtain the names and capitals of countries whose official language is the same as Argentina's official language.  
 Ensure you incorporate the following subquery `SELECT code FROM countries WHERE name='Argentina';` in your solution
@@ -67,7 +84,7 @@ Expected results: 17 rows
 -- Your solution goes here
 ```
 
-## Assignment 4.3
+### Assignment 4.3
 
 Retrieve the full names, band designations, and salaries of employees who have the top salary within their respective
 bands.  
@@ -89,7 +106,7 @@ bands.
 -- Your solution goes here
 ```
 
-## Assignment 4.4
+### Assignment 4.4
 
 Fetch the full names, band classifications, and salaries of employees whose earnings surpass the average salary
 in their respective bands.  
@@ -118,7 +135,7 @@ in their respective bands.
 -- Your solution goes here
 ```
 
-## Assignment 4.5 (4.4+)
+### Assignment 4.5 (4.4+)
 
 Fetch the full names, band classifications, and salaries of employees whose earnings surpass the average
 salary in their respective bands.  
@@ -150,7 +167,7 @@ Also show the difference between the employee's salary and the average salary fo
 ```
 
 
-## Assignment 4.6
+### Assignment 4.6
 
 Obtain the following information for employees who are allocated more annual leave days than their corresponding team
 leads:  
@@ -181,7 +198,7 @@ and the difference in leave days between the employee and their team lead.
 -- Your solution goes here
 ```
 
-## Assignment 4.7
+### Assignment 4.7
 Same as 4.6, but use a subquery to obtain the team lead's yearly leave days.
 
 **Expected results:** 12 rows
@@ -206,7 +223,7 @@ Same as 4.6, but use a subquery to obtain the team lead's yearly leave days.
 -- Your solution goes here
 ```
 
-## Assignment 4.8
+### Assignment 4.8
 
 Retrieve a list of employees who have a number of yearly leave days greater than the average yearly leave days for
 their respective band.  
@@ -241,7 +258,7 @@ This average should be shown as a separate column (avg_leave_days).
 -- Your solution goes here
 ```
 
-## Assignment 4.9
+### Assignment 4.9
 
 Display the employee ID, first name, last name, and the name of the customer they are currently
 assigned to for an active(ongoing) project.  
@@ -270,7 +287,7 @@ Ensure the results do not contain any repeated rows.
 -- Your solution goes here
 ```
 
-## Assignment 4.10 (optional, for 0.25 extra points)
+### Assignment 4.10 (optional, for 0.25 extra points)
 
 Display the employee ID, first name, last name, and the name of the on-going project they are currently
 assigned to (project_assignments.end_date is null) for an active(ongoing) project where the number of employees

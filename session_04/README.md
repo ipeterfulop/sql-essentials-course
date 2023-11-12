@@ -63,5 +63,5 @@ Tables were populated with data using the script
 You can use these scripts to create the tables and populate them with data in your own local database.
 
 ## Homework assignment
-The homework assignment for this session can be found 
-[homework_04.sql](homework_04.sql) and must be submitted prior to the next session.
+The homework assignment for this session in Markdown format can be found in the
+[homework_assignment_04.md](assignments/homework_assignment_04.md) file and must be submitted prior to the next session.
