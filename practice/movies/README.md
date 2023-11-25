@@ -45,5 +45,5 @@ The `movie_crew` table mirrors this structure for crew members, detailing their 
 If you're interested in setting up your own schema with the movie and related tables, you can execute the scripts compiled in the [`movies.zip`](data_setup/movies.zip) file.
 
 ## 5. Assignments
-I have created a set of intriguing exercises in the [optional_assignment_movies.md](assignments/optional_assignment_movies.md) file. By completing these exercises, 
+I have created a set of intriguing exercises in the [movies_assignment_1.md](assignments/movies_assignment_1.md) file. By completing these exercises, 
 you have the opportunity to earn an additional 1.5 points.
