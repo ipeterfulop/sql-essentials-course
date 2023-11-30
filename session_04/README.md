@@ -52,7 +52,7 @@ You should get a result similar to the following:
 |employees_residence_country_id_fkey|employees|residence_country_id|countries|code|
 
 If you prefer using diagrams to discover how tables are related, you can use this one:
-![](/Users/peterfulop.me/code/sql-essentials-course/session_04/db_diagram_practice_04.png)
+![db_diagram_practice_04.png](db_diagram_practice_04.png)
 
 
 ## Data setup

@@ -30,6 +30,37 @@ List the id, last name, first name of employees who do not have any leave reques
 **Remark 1:** for the simplicity a leave period is considered to be in  2023 if the 
 start_date is in 2023.
 
+**Expected output:** 4 rows
+
+| id | first\_name | last\_name |
+| :--- | :--- | :--- |
+| 27 | Andras | Farkas |
+| 29 | Bela | Nagy |
+| 26 | Eva | Szabo |
+| 28 | Krisztina | Toth |
+
+For this assignment you should provide **two different solutions**.  
+
+
+**Solution 6.1.A**: use the `EXCEPT` set operator, and do not use the `DISTINCT` operator.  
+**Hint:** First, you should collect the id of those employees that have leave requests in July 2023.  
+Second, you should collect the id of all employees and then use the EXCEPT set operator to remove the ids of
+those employees that have leave requests in 2023.  
+Take the remaining ids and join them with the employees table to get the required result.
+
+```{postgresql}
+-- Your solution for assignment 6.1.A goes here
+```
+
+**Solution 6.1.B:** Do not use the EXCEPT set operator, use LEFT OUTER JOIN instead.
+**Hint:** First, you should collect the id of those employees that have leave requests in July 2023
+using the GROUP BY clause on the `leave_days` table.  
+Use the `employees` table to left outer join the derived table obtained in the previous step.
+
+```{postgresql}
+-- Your solution for assignment 6.1.B goes here
+```
+
 
 ### Assignment 6.2
 Write a query that returns the employees that have no rejected leave requests in July 2023.  
@@ -39,7 +70,7 @@ by the last_name and first_name of the employees.
 **Remark 1:** for the simplicity a leave period is considered to be in July 2023 if the 
 start_date is in July.  
 **Remark 2:** you should count those employees that have no leave requests in July 2023
-or have only approved pr pending leave requests in July 2023.
+or have only approved and/or pending leave requests in July 2023.
 
 **Expected output:** 8 rows    
 
@@ -65,7 +96,7 @@ Take the remaining ids and join them with the employees table to get the require
 
 
 ```{postgresql}
--- Your solution for assignment 6.1.A goes here
+-- Your solution for assignment 6.2.A goes here
 ```  
 
 
@@ -75,7 +106,7 @@ using the GROUP BY clause on the `leave_days` table.
 Use the `employees` table to left outer join the derived table obtained in the previous step.
 
 ```{postgresql}
--- Your solution for assignment 6.1.B goes here
+-- Your solution for assignment 6.2.B goes here
 ```
 
 ### Assignment 6.3
