@@ -1,9 +1,21 @@
 # Learning session 6
 
-## 6.1 Topics Overview
 Welcome to the 6th learning session of our **SQL Essentials** course!  
 In this session Today we will explore the world of set operators, a fundamental tool that allows us to 
-seamlessly combine the results of multiple SQL queries. Set operators enable us to perform operations such 
+seamlessly combine the results of multiple SQL queries.  
+
+<!-- TOC -->
+* [Learning session 6](#learning-session-6)
+  * [6.1 Topics Overview](#61-topics-overview)
+  * [6.2 Additional information](#62-additional-information)
+  * [6.3 Data setup](#data-setup)
+  * [6.4 Homework assignment](#homework-assignment)
+<!-- TOC -->
+
+
+
+## 6.1 Topics Overview
+ Set operators enable us to perform operations such 
 as union, intersection, and difference on datasets, unlocking the ability to extract valuable insights and 
 solve complex data challenges efficiently. As we delve into the realm of set operators, you'll discover how to 
 merge, compare, and transform data from various tables, paving the way for more advanced query building and data 
@@ -44,13 +56,13 @@ If you prefer using diagrams to discover how tables are related, you can use thi
 ![db_diagram_practice_06.png](db_diagram_practice_06.png)
 
 
-## Data setup
+## 6.3 Data setup
 The tables related to this learning session were created in the ```practice_06``` schema using the script
 [`create_tables_practice_06.sql`](data_setup/create_tables_practice_06.sql).  
 Tables were populated with data using the script 
 [`populate_tables_practice_06.sql`](data_setup/populate_tables_practice_06.sql).
 You can use these scripts to create the tables and populate them with data in your own local database.
 
-## Homework assignment
+## 6.4 Homework assignment
 The homework assignment for this session in Markdown format can be found in the
 [homework_assignment_06.md](assignments/homework_assignment_06.md) file and must be submitted prior to the next session.
