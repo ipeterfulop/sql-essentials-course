@@ -12,8 +12,6 @@ seamlessly combine the results of multiple SQL queries.
   * [6.4 Homework assignment](#homework-assignment)
 <!-- TOC -->
 
-
-
 ## 6.1 Topics Overview
  Set operators enable us to perform operations such 
 as union, intersection, and difference on datasets, unlocking the ability to extract valuable insights and 
