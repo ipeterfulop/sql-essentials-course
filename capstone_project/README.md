@@ -4,16 +4,20 @@
 The objective of the capstone project is to encompass a broad range of topics discussed in the learning sessions.  
 As mentioned in the course announcement, the capstone project requires up to 6 hours rewarding work.
 
+**Table of Contents**:
+
 <!-- TOC -->
 * [Capstone project](#capstone-project)
-  * [1. Project description](#1-project-description)
+* [1. Project description](#1-project-description)
 * [2. Dedicated schema](#2-dedicated-schema)
 * [3. Assignments](#3-assignments)
   * [3.1 Warm-up](#31-warm-up)
     * [3.1.1 Working with a single table](#311-working-with-a-single-table)
     * [3.1.2 Building some statistics still working with a single table](#312-building-some-statistics-still-working-with-a-single-table)
     * [3.1.3 Start working with multiple tables](#313-start-working-with-multiple-tables)
-    * [3.1.4 Wrangling with data from multiple tables](#314-wrangling-with-data-from-multiple-tables)
+    * [3.1.4 To use or not to use the DISTINCT keyword](#314-to-use-or-not-to-use-the-distinct-keyword)
+    * [3.1. 5 Show me everything about the employees' expertise](#31-5-show-me-everything-about-the-employees-expertise)
+    * [3.1.6 Wrangling with data from multiple tables](#316-wrangling-with-data-from-multiple-tables)
   * [3.2 Let us analyze some activity logs](#32-let-us-analyze-some-activity-logs)
   * [3.3 Decode the query](#33-decode-the-query)
   * [3.4 Correct the mistakes intentionally introduced in the query](#34-correct-the-mistakes-intentionally-introduced-in-the-query)
@@ -36,6 +40,7 @@ As mentioned in the course announcement, the capstone project requires up to 6 h
     * [3.8.4 Make proof of using correlated subqueries](#384-make-proof-of-using-correlated-subqueries)
   * [3.9 Solve SQL the crossword puzzle!](#39-solve-sql-the-crossword-puzzle)
 <!-- TOC -->
+
 
 # 1. Project description
 
