@@ -1,5 +1,9 @@
 # Capstone project
 
+
+The objective of the capstone project is to encompass a broad range of topics discussed in the learning sessions.  
+As mentioned in the course announcement, the capstone project requires up to 6 hours rewarding work.
+
 <!-- TOC -->
 * [Capstone project](#capstone-project)
   * [1. Project description](#1-project-description)
@@ -33,7 +37,7 @@
   * [3.9 Solve SQL the crossword puzzle!](#39-solve-sql-the-crossword-puzzle)
 <!-- TOC -->
 
-## 1. Project description
+# 1. Project description
 
 The capstone project involves the widely recognized `employees` database,
 which has been updated with additional tables to facilitate the creation
@@ -111,14 +115,38 @@ Do NOT exclude the categories of area of expertise without any area of expertise
 
 ### 3.1.3 Start working with multiple tables
 
+List the employees with `Data engineer` job title and their area of expertise in the `Programming Languages` 
+area of expertise category.
+Order the results by the last name and first name of the employees, then the area of expertise.
+Use the `SELECT id, name FROM expertiseareas WHERE name = 'Programming Languages'` query to get the id of 
+the area of expertise category.  
+Use the `SELECT id FROM job_titles WHERE name = 'Data engineer'` query to get the id of the job title.
+
+```sql
+-- Your solution goes here.
+```
+
+**Expected output**: 4 rows
+
+|   id | last\_name | first\_name | category\_of\_expertise | area\_of\_expertise |
+|-----:| :--- | :--- | :--- | :--- |
+|   23 | Kiss | Ferenc | Programming Languages | Java |
+|    6 | Kovacs | Andras | Programming Languages | Python |
+|    6 | Kovacs | Andras | Programming Languages | Scala |
+|   11 | Kovacs | Anna | Programming Languages | SQL |
+
+
+### 3.1.4 To use or not to use the DISTINCT keyword
+
 Arrange in alphabetical order the ids, last names, and first names of employees
 who possess at least one area of expertise within the "Programming Languages"
 category, as assigned in the employee_expertisearea table.  
 Use the `SELECT id FROM expertiseareas WHERE name = 'Programming Languages'` query to get the id of the category.
 
 **Remarks**:  
-(A) one employee can have multiple areas of expertise assinged to him/her
-from the "Programming Languages" category.Try to build two solutions to remove the duplicates:
+(A) one employee can have multiple areas of expertise assiged to him/her
+from the "Programming Languages" category (`see employee with the employees.id=6`).
+If your solution returns the same employee multiple times, you should try to remove the duplicates:
  1. using the DISTINCT keyword
  2. using the GROUP BY clause (and CTE for the intermediate results)
 
@@ -139,7 +167,41 @@ from the "Programming Languages" category.Try to build two solutions to remove t
 | 23 | Kiss | Ferenc |
 
 
-### 3.1.4 Wrangling with data from multiple tables
+### 3.1. 5 Show me everything about the employees' expertise
+Show me the ids, last names, first names, category of expertise, and area of expertise of all employees.  
+Order the results by the last name and first name of the employees, then the category of expertise, and then the area 
+of expertise.
+
+```sql
+-- Your solution goes here.
+```
+
+**Expected output**: 38 rows
+
+|  id | last\_name | first\_name | category\_of\_expertise     | area\_of\_expertise         |
+|----:|:-----------|:------------|:----------------------------|:----------------------------|
+|   4 | Horvath    | Eva         | Data Governance             | Data Quality                |
+|   4 | Horvath    | Eva         | Data Visualization          | Seaborn                     |
+|   4 | Horvath    | Eva         | Machine Learning            | Supervised Learning         |
+|  16 | Kiss       | Eva         | Business Intelligence Tools | Tableau                     |
+|  16 | Kiss       | Eva         | Data Visualization          | Matplotlib                  |
+|  23 | Kiss       | Ferenc      | Data Governance             | Data Quality                |
+|  23 | Kiss       | Ferenc      | Data Processing Frameworks  | Apache Spark                |
+|  23 | Kiss       | Ferenc      | Data Visualization          | Matplotlib                  |
+|  23 | Kiss       | Ferenc      | Data Warehousing            | Snowflake                   |
+|  23 | Kiss       | Ferenc      | Programming Languages       | Java                        |
+|   2 | Kiss       | Istvan      | Data Warehousing            | Google BigQuery             |
+|   2 | Kiss       | Istvan      | Programming Languages       | Java                        |
+| ... | ...        | ...         | ...                         | ...                         |
+|  12 | Toth       | Balazs      | Data Warehousing            | Snowflake                   |
+|  12 | Toth       | Balazs      | Programming Languages       | Java                        |
+|   9 | Toth       | Lilla       | Data Visualization          | Matplotlib                  |
+|   9 | Toth       | Lilla       | Machine Learning            | Natural Language Processing |
+|  19 | Varga      | Laszlo      | Business Intelligence Tools | Tableau                     |
+|  19 | Varga      | Laszlo      | Data Visualization          | Seaborn                     |
+
+
+### 3.1.6 Wrangling with data from multiple tables
 Arrange in alphabetical order the ids, last_names and first_names of employees
 who have at least one or more expertise from the "Programming Languages"
 and "Cloud Platforms" area of expertise categories
