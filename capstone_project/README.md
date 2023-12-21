@@ -1,6 +1,37 @@
 # Capstone project
 
-
+<!-- TOC -->
+* [Capstone project](#capstone-project)
+  * [1. Project description](#1-project-description)
+* [2. Dedicated schema](#2-dedicated-schema)
+* [3. Assignments](#3-assignments)
+  * [3.1 Warm-up](#31-warm-up)
+    * [3.1.1 Working with a single table](#311-working-with-a-single-table)
+    * [3.1.2 Building some statistics still working with a single table](#312-building-some-statistics-still-working-with-a-single-table)
+    * [3.1.3 Start working with multiple tables](#313-start-working-with-multiple-tables)
+    * [3.1.4 Wrangling with data from multiple tables](#314-wrangling-with-data-from-multiple-tables)
+  * [3.2 Let us analyze some activity logs](#32-let-us-analyze-some-activity-logs)
+  * [3.3 Decode the query](#33-decode-the-query)
+  * [3.4 Correct the mistakes intentionally introduced in the query](#34-correct-the-mistakes-intentionally-introduced-in-the-query)
+    * [3.4.1 Do you like using joins?](#341-do-you-like-using-joins)
+    * [3.4.2 There is always time for a subquery!](#342-there-is-always-time-for-a-subquery)
+  * [3.5 Fill in the blanks](#35-fill-in-the-blanks)
+    * [3.5.1 Guess more than one query section at a time](#351-guess-more-than-one-query-section-at-a-time)
+    * [3.5.2 Are you ready to think about date manipulation?](#352-are-you-ready-to-think-about-date-manipulation)
+  * [3.6 Manipulate the data](#36-manipulate-the-data)
+    * [3.6.1 Add new rows to a table](#361-add-new-rows-to-a-table)
+    * [3.6.2 Update existing rows in a table](#362-update-existing-rows-in-a-table)
+    * [3.6.3 Delete existing rows from a table](#363-delete-existing-rows-from-a-table)
+  * [3.7 Use the documentation](#37-use-the-documentation)
+    * [3.7.1 Random Number Generation](#371-random-number-generation)
+    * [3.7.2 Creating a table from a query result](#372-creating-a-table-from-a-query-result)
+  * [3.8 Put your creativity to work](#38-put-your-creativity-to-work)
+    * [3.8.1 Make proof of using the EXCEPT set operator](#381-make-proof-of-using-the-except-set-operator)
+    * [3.8.2 Make proof of using LEFT OUTER JOIN and RIGHT OUTER JOIN](#382-make-proof-of-using-left-outer-join-and-right-outer-join)
+    * [3.8.3 Make proof of WITH and GROUP BY clauses](#383-make-proof-of-with-and-group-by-clauses)
+    * [3.8.4 Make proof of using correlated subqueries](#384-make-proof-of-using-correlated-subqueries)
+  * [3.9 Solve SQL the crossword puzzle!](#39-solve-sql-the-crossword-puzzle)
+<!-- TOC -->
 
 ## 1. Project description
 
@@ -154,7 +185,7 @@ If you correct the mistakes in the query, the output should be as follows:
 | Team augmentation 1 |       25 |       31 |       28 |
 | Team Augmentation 2 |       25 |       38 |       30 |
 
-### 3.4.2 There is alwas time for a subquery!
+### 3.4.2 There is always time for a subquery!
 Fetch the full names, band classifications, salaries of employees whose earnings
 are less or equal than the average salary in their respective bands.
 ALso include the average salary for the band and the difference between the employee's salary and the average salary for
@@ -338,6 +369,6 @@ Formulate your own assignment that:
 1. can be solved using a correlated subquery.
 2. If possible, write a second alternative query that does not use a correlated subquery.
 
-
+## 3.9 Solve SQL the crossword puzzle!
 
 
