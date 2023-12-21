@@ -13,11 +13,11 @@ As mentioned in the course announcement, the capstone project requires up to 6 h
 * [3. Assignments](#3-assignments)
   * [3.1 Warm-up](#31-warm-up)
     * [3.1.1 Working with a single table](#311-working-with-a-single-table)
-    * [3.1.2 Building some statistics still working with a single table](#312-building-some-statistics-still-working-with-a-single-table)
+    * [3.1.2 Doing some counting while still working with a single table](#312-doing-some-counting-while-still-working-with-a-single-table)
     * [3.1.3 Start working with multiple tables](#313-start-working-with-multiple-tables)
     * [3.1.4 To use or not to use the DISTINCT keyword](#314-to-use-or-not-to-use-the-distinct-keyword)
-    * [3.1. 5 Show me everything about the employees' expertise](#31-5-show-me-everything-about-the-employees-expertise)
-    * [3.1.6 Wrangling with data from multiple tables](#316-wrangling-with-data-from-multiple-tables)
+    * [3.1.5 Show me everything about the employees' expertise](#315-show-me-everything-about-the-employees-expertise)
+    * [3.1.6 Wrangling with data from multiple tables (optional)](#316-wrangling-with-data-from-multiple-tables-optional)
   * [3.2 Let us analyze some activity logs](#32-let-us-analyze-some-activity-logs)
   * [3.3 Decode the query](#33-decode-the-query)
   * [3.4 Correct the mistakes intentionally introduced in the query](#34-correct-the-mistakes-intentionally-introduced-in-the-query)
@@ -97,13 +97,17 @@ and then in alphabetical order of the area of expertise.
 -- Your solution goes here.
 ```
 
-### 3.1.2 Building some statistics still working with a single table
+### 3.1.2 Doing some counting while still working with a single table
 
 List the categories of area of expertise
 and the number of area of expertise in each category in descending order of the number of area of expertise.
 Do NOT exclude the categories of area of expertise without any area of expertise.
+```sql
+-- Your solution goes here.
+```
 
-**Expected output**: 10 rows
+
+**Expected output**: 10 rows  
 
 | name                        | nr\_areas\_of\_expertise |
 |:----------------------------|-------------------------:|
@@ -172,7 +176,7 @@ If your solution returns the same employee multiple times, you should try to rem
 | 23 | Kiss | Ferenc |
 
 
-### 3.1. 5 Show me everything about the employees' expertise
+### 3.1.5 Show me everything about the employees' expertise
 Show me the ids, last names, first names, category of expertise, and area of expertise of all employees.  
 Order the results by the last name and first name of the employees, then the category of expertise, and then the area 
 of expertise.
@@ -206,11 +210,35 @@ of expertise.
 |  19 | Varga      | Laszlo      | Data Visualization          | Seaborn                     |
 
 
-### 3.1.6 Wrangling with data from multiple tables
-Arrange in alphabetical order the ids, last_names and first_names of employees
-who have at least one or more expertise from the "Programming Languages"
-and "Cloud Platforms" area of expertise categories
-but do not have any expertise from the "Data Visualization" category.
+### 3.1.6 Wrangling with data from multiple tables (optional)
+See the complete expertise of the employees who
+have at least one or more expertise from have any expertise from the "Data Warehousing" category
+but do not have simultaneously expertises from both the "Programming Languages" and "Data Visualization" categories.
+Order the results by the last name and first name of the employees, then the category of expertise, 
+and then the area of expertise. 
+
+Remarks:  
+  - difficulty level: high (in the context of this course)
+  - this task is optional, but it is a good exercise to practice the use set operators
+
+**Expected output**: 12 rows
+
+| id | last\_name | first\_name | category\_of\_expertise | area\_of\_expertise |
+| :--- | :--- | :--- | :--- | :--- |
+| 2 | Kiss | Istvan | Data Warehousing | Google BigQuery |
+| 2 | Kiss | Istvan | Programming Languages | Java |
+| 11 | Kovacs | Anna | Data Governance | Data Quality |
+| 11 | Kovacs | Anna | Data Processing Frameworks | Hadoop |
+| 11 | Kovacs | Anna | Data Warehousing | Google BigQuery |
+| 11 | Kovacs | Anna | Programming Languages | SQL |
+| 21 | Kovacs | Gabor | Data Warehousing | Amazon Redshift |
+| 21 | Kovacs | Gabor | Programming Languages | Python |
+| 7 | Molnar | Anita | Data Warehousing | Amazon Redshift |
+| 7 | Molnar | Anita | Programming Languages | Java |
+| 12 | Toth | Balazs | Data Warehousing | Snowflake |
+| 12 | Toth | Balazs | Programming Languages | Java |
+
+
 
 ## 3.2 Let us analyze some activity logs
 
