@@ -242,6 +242,94 @@ Remarks:
 
 ## 3.2 Let us analyze some activity logs
 
+### 3.2.1. Zoom in on the activity logs
+List the date of activity, hours spent on the activity, and the name of the activity category
+for all the activities done by the employee with the id 11 in the month of September 2023. 
+Try to write a sargable query.  
+**Hint**: the `activity_logs` table contains a `project_assignment_id`, not the `employee_id`. 
+To be able to filter by the `employee_id`, you need to join the `project_assignments table`.    
+Projects table and activity_categories table should be joined as well.
+
+```sql
+-- Your solution goes here.
+``` 
+
+**Expected output**: 157 rows  
+
+| date\_of\_activity | project                                                 | activity                             | hours\_worked |
+|:-------------------|:--------------------------------------------------------|:-------------------------------------|--------------:|
+| 2023-09-04         | BIOasis: Business Intelligence Optimization & Analytics | Data Analysis Support                |          1.00 |
+| 2023-09-04         | BIOasis: Business Intelligence Optimization & Analytics | Data pipeline testing                |          1.00 |
+| 2023-09-04         | BIOasis: Business Intelligence Optimization & Analytics | Data Visualization                   |          1.00 |
+| 2023-09-04         | BIOasis: Business Intelligence Optimization & Analytics | Report Development                   |          5.00 |
+| 2023-09-04         | NexaNode: Scalable Data Warehouse Solutions             | Data Analysis Support                |          0.50 |
+| 2023-09-04         | NexaNode: Scalable Data Warehouse Solutions             | Data Modeling                        |          0.50 |
+| ...                | ...                                                     | ...                                  |           ... |
+| 2023-09-28 | NexaNode: Scalable Data Warehouse Solutions             | Report Development                   | 0.50 |
+| 2023-09-29 | BIOasis: Business Intelligence Optimization & Analytics | Data Modeling                        | 1.00 |
+| 2023-09-29 | BIOasis: Business Intelligence Optimization & Analytics | Data pipeline testing                | 3.00 |
+| 2023-09-29 | BIOasis: Business Intelligence Optimization & Analytics | Query performance testing and tuning | 3.00 |
+| 2023-09-29 | BIOasis: Business Intelligence Optimization & Analytics | Report Development                   | 1.00 |
+| 2023-09-29 | NexaNode: Scalable Data Warehouse Solutions             | Dashboard Creation                   | 0.50 |
+| 2023-09-29 | NexaNode: Scalable Data Warehouse Solutions             | Data Modeling                        | 0.50 |
+| 2023-09-29 | NexaNode: Scalable Data Warehouse Solutions             | ETL Development                      | 0.50 |
+| 2023-09-29 | NexaNode: Scalable Data Warehouse Solutions             | Query performance testing and tuning | 0.50 |
+
+
+
+### 3.2.2. Let us do some grouping and aggregation
+As we have seen in the results of the previous assignment, the employee with the id 11 has been very busy in September.    
+List name of the activity category and the total number of hours spent on the activity category in September 2023 for the same employee with id 11.
+Order the results by the total number of hours spent on the activity category in descending order.
+
+```sql 
+-- Your solution goes here.
+```
+
+**Expected output**: 8 rows
+
+| activity | total\_hours\_worked |
+| :--- |---------------------:|
+| Query performance testing and tuning |                   30 |
+| Report Development |                 29.5 |
+| Data Analysis Support |                 28.5 |
+| Data pipeline testing |                   28 |
+| Data Visualization |                 27.5 |
+| Data Modeling |                 23.5 |
+| ETL Development |                   18 |
+| Dashboard Creation |                   17 |
+
+
+### 3.2.3. Identify the most hard-working employees
+For the months of August 2023, September 2023, October 2023, and November 2023, list the name of the employee and the total number of hours spent 
+on activities for each employee.
+Please also show the ratio of the total number of billable hours to the total number of hours spent on activities for each employee.  
+Exclude from the list the results where the monthly total number of hours spent on activities is less than 160.  
+
+**Expected output**: 18 rows
+
+| id | employee | month\_of\_2023 | total\_hours\_worked |
+| :--- | :--- |----------------:|---------------------:|
+| 11 | Kovacs Anna |               8 |                  190 |
+| 12 | Toth Balazs |               8 |                  190 |
+| 4 | Horvath Eva |               8 |                  190 |
+| 11 | Kovacs Anna |               9 |                  202 |
+| 4 | Horvath Eva |               9 |                  200 |
+| 12 | Toth Balazs |               9 |                  200 |
+| 6 | Kovacs Andras |               9 |                  162 |
+| 23 | Kiss Ferenc |               9 |                  161 |
+| 10 | Nagy Laszlo |               9 |                  160 |
+| 4 | Horvath Eva |              10 |                  221 |
+| 11 | Kovacs Anna |              10 |                  221 |
+| 12 | Toth Balazs |              10 |                  220 |
+| 23 | Kiss Ferenc |              10 |                  180 |
+| 6 | Kovacs Andras |              10 |                  177 |
+| 10 | Nagy Laszlo |              10 |                  176 |
+| 12 | Toth Balazs |              11 |                  192 |
+| 11 | Kovacs Anna |              11 |                  191 |
+| 4 | Horvath Eva |              11 |                  191 |
+
+
 ## 3.3 Decode the query
 
 ## 3.4 Correct the mistakes intentionally introduced in the query

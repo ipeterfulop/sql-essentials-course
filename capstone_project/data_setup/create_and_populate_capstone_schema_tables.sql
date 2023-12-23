@@ -7207,708 +7207,2814 @@ INSERT INTO capstone.employee_expertisearea (employee_id, expertisearea_id, leve
 VALUES (4, 28, 3);
 
 -- populating activity_logs
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-09-04', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-09-04', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 2, '2023-09-04', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 6, '2023-09-04', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 5, '2023-09-04', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 7, '2023-09-04', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-09-04', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 3, '2023-09-04', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 3, '2023-09-04', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-09-05', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-05', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 2, '2023-09-05', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-09-05', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-09-05', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 4, '2023-09-05', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 3, '2023-09-05', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-09-05', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-09-05', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 1, '2023-09-06', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-09-06', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-09-06', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 7, '2023-09-06', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-09-06', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-09-06', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 3, '2023-09-06', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-09-06', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 3, '2023-09-06', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-09-07', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-07', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-09-07', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 6, '2023-09-07', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 4, '2023-09-07', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 8, '2023-09-07', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-09-07', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 6, '2023-09-07', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 5, '2023-09-07', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-09-08', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-09-08', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 5, '2023-09-08', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 4, '2023-09-08', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 3, '2023-09-08', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 7, '2023-09-08', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 5, '2023-09-08', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 5, '2023-09-08', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-09-08', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 1, '2023-09-11', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 2, '2023-09-11', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 6, '2023-09-11', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-09-11', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 1, '2023-09-11', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-09-11', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-09-11', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-09-11', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 2, '2023-09-11', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 3, '2023-09-12', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-12', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 4, '2023-09-12', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 4, '2023-09-12', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 5, '2023-09-12', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-09-12', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-09-12', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-09-12', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-09-12', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-09-13', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-09-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 6, '2023-09-13', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 2, '2023-09-13', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-09-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 1, '2023-09-13', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-09-13', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-09-13', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 6, '2023-09-13', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-09-14', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-09-14', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 3, '2023-09-14', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 6, '2023-09-14', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 3, '2023-09-14', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 8, '2023-09-14', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-09-14', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-09-14', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-09-14', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 2, '2023-09-15', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 3, '2023-09-15', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-09-15', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 7, '2023-09-15', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-09-15', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-09-15', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 8, '2023-09-15', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 2, '2023-09-15', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 7, '2023-09-15', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 6, '2023-09-18', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-18', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 3, '2023-09-18', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-09-18', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 1, '2023-09-18', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 3, '2023-09-18', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-09-18', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 2, '2023-09-18', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 3, '2023-09-18', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 7, '2023-09-19', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-09-19', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 3, '2023-09-19', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 4, '2023-09-19', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-09-19', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 7, '2023-09-19', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 5, '2023-09-19', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-09-19', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 2, '2023-09-19', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-09-20', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 3, '2023-09-20', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-09-20', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 5, '2023-09-20', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 2, '2023-09-20', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-09-20', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 3, '2023-09-20', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 6, '2023-09-20', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 6, '2023-09-20', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-09-21', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 2, '2023-09-21', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 4, '2023-09-21', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 3, '2023-09-21', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-09-21', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-09-21', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-09-21', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 6, '2023-09-21', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 5, '2023-09-21', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 7, '2023-09-22', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-22', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-09-22', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 4, '2023-09-22', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 1, '2023-09-22', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-09-22', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-09-22', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-09-22', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-09-22', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 2, '2023-09-25', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-25', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 5, '2023-09-25', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 2, '2023-09-25', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-09-25', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-09-25', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-09-25', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-09-25', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 2, '2023-09-25', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-09-26', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-09-26', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-09-26', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 3, '2023-09-26', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-09-26', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 3, '2023-09-26', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 6, '2023-09-26', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-09-26', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-09-26', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-09-27', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 1, '2023-09-27', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 6, '2023-09-27', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 7, '2023-09-27', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-09-27', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-09-27', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-09-27', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-09-27', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-09-27', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 3, '2023-09-28', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-09-28', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-09-28', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 5, '2023-09-28', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-09-28', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-09-28', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 7, '2023-09-28', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 3, '2023-09-28', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 6, '2023-09-28', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 6, '2023-09-29', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-09-29', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 2, '2023-09-29', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-09-29', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 2, '2023-09-29', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-09-29', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-09-29', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-09-29', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 2, '2023-09-29', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 7, '2023-11-06', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-11-06', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-11-06', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-11-06', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 3, '2023-11-06', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 4, '2023-11-06', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 7, '2023-11-06', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-11-06', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 7, '2023-11-06', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-11-07', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-11-07', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-11-07', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-07', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 4, '2023-11-07', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-11-07', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-11-07', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 2, '2023-11-07', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-11-07', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-11-08', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-11-08', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 6, '2023-11-08', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-08', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-11-08', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 7, '2023-11-08', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 6, '2023-11-08', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-11-08', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 1, '2023-11-08', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 6, '2023-11-09', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-11-09', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 2, '2023-11-09', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-11-09', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-11-09', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-11-09', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-11-09', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 5, '2023-11-09', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 5, '2023-11-09', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-11-10', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 2, '2023-11-10', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 5, '2023-11-10', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-11-10', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-11-10', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-11-10', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 8, '2023-11-10', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-11-10', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 6, '2023-11-10', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 1, '2023-11-13', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-11-13', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 8, '2023-11-13', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 3, '2023-11-13', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-11-13', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 1, '2023-11-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 5, '2023-11-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 2, '2023-11-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-11-13', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-11-14', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 4, '2023-11-14', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 5, '2023-11-14', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 5, '2023-11-14', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-11-14', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-11-14', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-11-14', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-11-14', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 3, '2023-11-14', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 3, '2023-11-15', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 6, '2023-11-15', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 4, '2023-11-15', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 7, '2023-11-15', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-11-15', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 8, '2023-11-15', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 8, '2023-11-15', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-11-15', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-11-15', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 7, '2023-11-16', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 3, '2023-11-16', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 6, '2023-11-16', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-11-16', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 3, '2023-11-16', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 1, '2023-11-16', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 5, '2023-11-16', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-11-16', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-11-16', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 1, '2023-11-17', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 3, '2023-11-17', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 2, '2023-11-17', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-17', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 5, '2023-11-17', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 8, '2023-11-17', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 3, '2023-11-17', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-11-17', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 3, '2023-11-17', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 3, '2023-11-20', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-11-20', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 8, '2023-11-20', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 1, '2023-11-20', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 5, '2023-11-20', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-11-20', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-11-20', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-11-20', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 5, '2023-11-20', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 3, '2023-11-21', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 6, '2023-11-21', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 3, '2023-11-21', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-21', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-11-21', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 6, '2023-11-21', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 5, '2023-11-21', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-11-21', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 7, '2023-11-21', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-11-22', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 3, '2023-11-22', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-11-22', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-22', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 1, '2023-11-22', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-11-22', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 6, '2023-11-22', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-11-22', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 7, '2023-11-22', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 7, '2023-11-23', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 6, '2023-11-23', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-11-23', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-23', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 2, '2023-11-23', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-11-23', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-11-23', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 4, '2023-11-23', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 7, '2023-11-23', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 2, '2023-11-24', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 8, '2023-11-24', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 4, '2023-11-24', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 8, '2023-11-24', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 2, '2023-11-24', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 3, '2023-11-24', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 4, '2023-11-24', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 1, '2023-11-24', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-11-24', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 8, '2023-11-27', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 6, '2023-11-27', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-11-27', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 3, '2023-11-27', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 7, '2023-11-27', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 5, '2023-11-27', 2, 1.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 1, '2023-11-27', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 8, '2023-11-27', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 1, '2023-11-27', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 2, '2023-11-28', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 7, '2023-11-28', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 7, '2023-11-28', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 7, '2023-11-28', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 6, '2023-11-28', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 7, '2023-11-28', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 3, '2023-11-28', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 3, '2023-11-28', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 1, '2023-11-28', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 5, '2023-11-29', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 6, '2023-11-29', 3, 2.7);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 4, '2023-11-29', 1, 0.9);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 4, '2023-11-29', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-11-29', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 8, '2023-11-29', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-11-29', 3, 2.4);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 7, '2023-11-29', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 8, '2023-11-29', 2, 1.6);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (20, 4, '2023-11-30', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (21, 5, '2023-11-30', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (22, 1, '2023-11-30', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (23, 3, '2023-11-30', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (24, 8, '2023-11-30', 1, 1.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (25, 2, '2023-11-30', 2, 2.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (26, 2, '2023-11-30', 3, 3.0);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (27, 6, '2023-11-30', 1, 0.8);
-insert into capstone.activity_logs (project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable)
-values (28, 4, '2023-11-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-08', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-08', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-08', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-09', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-09', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-09', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-11', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-15', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-15', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-08-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-16', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-17', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-21', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-21', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-21', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-21', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-08-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-25', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-25', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-08-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-08-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-28', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-08-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-08-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-08-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-08-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-08-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-08-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-08-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-08-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-08-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-08-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-08-31', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-08-31', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-08-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-08-31', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-08-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-08-31', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-08-31', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-08-31', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-08-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-08-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-08-31', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-08-31', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-08-31', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-08-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-08-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-08-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-08-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-08-31', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-08-31', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-08-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-04', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-04', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-04', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-04', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-04', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-04', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-09-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-04', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-04', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-05', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-05', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-05', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-06', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-07', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-08', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-12', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-12', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-12', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-12', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-12', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-09-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-09-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-12', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-13', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-09-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-14', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-15', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-15', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-15', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-15', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-18', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-19', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-19', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-19', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-19', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-19', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-19', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-09-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-20', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-09-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-21', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-21', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-21', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-09-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-09-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-25', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-25', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-09-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-09-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-09-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-09-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-09-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-09-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-09-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-09-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-09-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-09-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-09-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-09-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-09-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-09-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-09-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-09-28', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-09-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-09-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-09-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-09-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-09-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-09-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-09-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-09-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-09-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-09-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-09-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-09-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-09-29', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-09-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-09-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-09-29', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-09-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-09-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-09-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-09-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-10-02', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-02', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-02', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-02', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-02', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-02', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-02', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-02', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-02', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-02', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-02', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-02', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-03', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-03', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-03', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-03', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-03', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-03', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-03', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-03', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-03', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-03', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-03', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-03', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-03', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-03', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-03', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-03', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-03', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-03', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-03', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-03', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-03', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-03', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-03', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-03', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-04', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-04', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-04', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-04', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-04', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-04', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-04', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-04', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-04', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-04', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-04', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-04', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-05', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-05', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-05', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-05', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-05', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-05', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-05', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-05', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-05', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-05', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-05', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-05', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-09', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-09', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-09', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-10', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-11', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-11', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-11', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-11', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-11', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-11', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-11', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-12', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-12', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-12', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-12', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-12', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-12', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-12', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-12', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-12', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-12', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-12', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-12', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-13', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-13', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-13', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-10-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-18', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-18', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-18', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-18', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-18', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-18', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-18', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-19', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-19', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-19', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-19', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-19', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-19', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-19', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-19', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-19', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-19', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-20', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-20', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-20', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-10-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-23', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-24', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-25', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-10-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-25', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-25', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-25', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-25', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-25', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-25', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-25', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-10-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-26', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-26', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-10-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-26', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-10-26', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-26', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-26', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-26', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-10-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-10-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-10-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-10-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-10-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-27', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-10-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-10-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-10-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-27', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-10-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-10-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-10-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-10-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-10-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-10-30', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-10-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-10-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-10-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-10-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-10-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-10-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-30', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-10-31', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-10-31', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-10-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-10-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-10-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-10-31', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-10-31', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-10-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-10-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-10-31', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-10-31', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-10-31', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-10-31', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-10-31', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-10-31', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-06', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-06', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-06', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-06', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-06', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-06', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-06', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-06', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-06', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-06', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-06', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-07', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-07', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-07', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-07', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-07', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-07', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-07', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-11-07', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-07', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-08', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-11-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-11-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-08', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-08', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-08', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-08', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-08', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-08', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-09', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-09', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-09', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-09', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-09', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-09', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-10', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-10', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-11-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-10', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-10', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-10', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-10', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-10', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-10', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-10', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-13', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-13', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 2,  '2023-11-13', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-13', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-11-13', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-13', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-13', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-13', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-14', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-11-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-14', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-14', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-14', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-14', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-14', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-14', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-14', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-14', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-14', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-15', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-15', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-15', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-15', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-15', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-15', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-15', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-15', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-15', 5, 5.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-16', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-16', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-16', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-16', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-16', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-16', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-11-16', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-11-17', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-17', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-17', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-17', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-17', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-17', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-17', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-17', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-20', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-20', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 7,  '2023-11-20', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-20', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-20', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-20', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-20', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-21', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-21', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-21', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-21', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-21', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-21', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-21', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-21', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-21', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-21', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-11-22', 4, 3.6);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-22', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-22', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-22', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-22', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-22', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-22', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-22', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 3,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-23', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-23', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-23', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-23', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-23', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-23', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-11-23', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-24', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-24', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-24', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-24', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-24', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-24', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-24', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 2,  '2023-11-24', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 3,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 1,  '2023-11-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-27', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 8,  '2023-11-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 1,  '2023-11-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 2,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-27', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 7,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 7,  '2023-11-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-27', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-27', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-27', 4, 4.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-27', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-27', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-27', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 4,  '2023-11-27', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 4,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 1,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-28', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 8,  '2023-11-28', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-28', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-28', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 5,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 4,  '2023-11-28', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-28', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 8,  '2023-11-28', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 2,  '2023-11-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 4,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 2,  '2023-11-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 6,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 8,  '2023-11-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 5,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 6,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 5,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 4,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 3,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 2,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 4,  '2023-11-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 6,  '2023-11-29', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 4,  '2023-11-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 5,  '2023-11-29', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 1,  '2023-11-29', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-29', 5, 4.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 8,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 3,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-29', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 1,  '2023-11-29', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 6,  '2023-11-29', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-29', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 8,  '2023-11-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 7,  '2023-11-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 6,  '2023-11-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (20, 5,  '2023-11-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 7,  '2023-11-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 3,  '2023-11-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 5,  '2023-11-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (21, 6,  '2023-11-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 5,  '2023-11-30', 1, 0.9);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 1,  '2023-11-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 4,  '2023-11-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (22, 7,  '2023-11-30', 2, 1.8);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 8,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 2,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 4,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (23, 3,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 6,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 1,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 8,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (24, 7,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 1,  '2023-11-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 5,  '2023-11-30', 1, 1.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 3,  '2023-11-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (25, 8,  '2023-11-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 2,  '2023-11-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 3,  '2023-11-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (26, 6,  '2023-11-30', 3, 2.7);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 1,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 6,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 7,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (27, 2,  '2023-11-30', 0.5, 0.5);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 7,  '2023-11-30', 2, 2.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 3,  '2023-11-30', 3, 3.0);
+insert into activity_logs ( project_assignment_id, activity_category_id, date_of_activity, hours_worked, hours_billable) values (28, 5,  '2023-11-30', 3, 3.0);
+
+
+
 
 
 
