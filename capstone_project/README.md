@@ -19,6 +19,9 @@ As mentioned in the course announcement, the capstone project requires up to 6 h
     * [3.1.5 Show me everything about the employees' expertise](#315-show-me-everything-about-the-employees-expertise)
     * [3.1.6 Wrangling with data from multiple tables (optional)](#316-wrangling-with-data-from-multiple-tables-optional)
   * [3.2 Let us analyze some activity logs](#32-let-us-analyze-some-activity-logs)
+    * [3.2.1. Zoom in on the activity logs](#321-zoom-in-on-the-activity-logs)
+    * [3.2.2. Let us do some grouping and aggregation](#322-let-us-do-some-grouping-and-aggregation)
+    * [3.2.3. Identify the most hard-working employees](#323-identify-the-most-hard-working-employees)
   * [3.3 Decode the query](#33-decode-the-query)
   * [3.4 Correct the mistakes intentionally introduced in the query](#34-correct-the-mistakes-intentionally-introduced-in-the-query)
     * [3.4.1 Do you like using joins?](#341-do-you-like-using-joins)
@@ -40,7 +43,6 @@ As mentioned in the course announcement, the capstone project requires up to 6 h
     * [3.8.4 Make proof of using correlated subqueries](#384-make-proof-of-using-correlated-subqueries)
   * [3.9 Solve SQL the crossword puzzle!](#39-solve-sql-the-crossword-puzzle)
 <!-- TOC -->
-
 
 # 1. Project description
 
