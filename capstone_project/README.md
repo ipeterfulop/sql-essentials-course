@@ -22,7 +22,11 @@ As mentioned in the course announcement, the capstone project requires up to 6 h
     * [3.2.1. Zoom in on the activity logs](#321-zoom-in-on-the-activity-logs)
     * [3.2.2. Let us do some grouping and aggregation](#322-let-us-do-some-grouping-and-aggregation)
     * [3.2.3. Identify the most hard-working employees](#323-identify-the-most-hard-working-employees)
+    * [3.2.4. Identify the "employees of the month"](#324-identify-the-employees-of-the-month)
+    * [3.2.5. Summarize the billable hours](#325-summarize-the-billable-hours)
   * [3.3 Decode the query](#33-decode-the-query)
+    * [3.3.1 Start working with worked and billable hours ratio](#331-start-working-with-worked-and-billable-hours-ratio)
+    * [3.3.2 The answer is related to billable hours](#332-the-answer-is-related-to-billable-hours)
   * [3.4 Correct the mistakes intentionally introduced in the query](#34-correct-the-mistakes-intentionally-introduced-in-the-query)
     * [3.4.1 Do you like using joins?](#341-do-you-like-using-joins)
     * [3.4.2 There is always time for a subquery!](#342-there-is-always-time-for-a-subquery)
@@ -303,9 +307,9 @@ Order the results by the total number of hours spent on the activity category in
 
 
 ### 3.2.3. Identify the most hard-working employees
-For the months of August 2023, September 2023, October 2023, and November 2023, list the name of the employee and the total number of hours spent 
-on activities for each employee.
-Please also show the ratio of the total number of billable hours to the total number of hours spent on activities for each employee.  
+For the months of August 2023, September 2023, October 2023, and November 2023, 
+list the name of the employee and the total number of hours spent 
+on activities for each employee. 
 Exclude from the list the results where the monthly total number of hours spent on activities is less than 160.  
 
 **Expected output**: 18 rows
@@ -332,7 +336,122 @@ Exclude from the list the results where the monthly total number of hours spent 
 | 4 | Horvath Eva |              11 |                  191 |
 
 
+### 3.2.4. Identify the "employees of the month"
+
+For the months of August 2023, September 2023, October 2023, and November 2023 
+list the month index, name of the employee and the total number of hours spent 
+on activities for the employees with the higher number of hours spent on activities in each month.  
+Order the results by the month index in ascending order.
+
+**Hints**: 
+- you can use the `WITH` clause to create a `CTE` for the intermediate results, 
+ create a CTE with the employee_ids and the total number of hours spent on activities for each employee and month
+- using the CTE created in the previous step, you can create a second CTE with the month and the maximum number of hours spent on activities in each month.
+- by joining the two CTEs with the employees table, you can get the name of the employees with the maximum number of hours spent on activities in each month.
+
+**Expected output**: 7 rows  
+
+| wmonth | employee | monthly\_hours |
+|-------:| :--- |---------------:|
+|      8 | Horvath Eva |            190 |
+|      8 | Kovacs Anna |            190 |
+|      8 | Toth Balazs |            190 |
+|      9 | Kovacs Anna |            202 |
+|     10 | Horvath Eva |            221 |
+|     10 | Kovacs Anna |            221 |
+|     11 | Toth Balazs |            192 |
+
+### 3.2.5. Summarize the billable hours
+For the month of September 2023, list the name of the customer, the name of the activity category and the 
+total number of billable hours spent on activities for each customer and activity category.
+
+**Expected output**: 16 rows  
+
+| name | name | total\_billable\_hours |
+| :--- | :--- |-----------------------:|
+| GE | Data Analysis Support |                     85 |
+| GE | Data Visualization |                   80.3 |
+| GE | Query performance testing and tuning |                     75 |
+| GE | Dashboard Creation |                   63.6 |
+| GE | Report Development |                   62.1 |
+| GE | Data pipeline testing |                   59.7 |
+| GE | Data Modeling |                   57.3 |
+| GE | ETL Development |                     57 |
+| Johnson&Johnson | Dashboard Creation |                   71.4 |
+| Johnson&Johnson | ETL Development |                   68.1 |
+| Johnson&Johnson | Data Visualization |                   66.8 |
+| Johnson&Johnson | Report Development |                   64.2 |
+| Johnson&Johnson | Query performance testing and tuning |                   62.2 |
+| Johnson&Johnson | Data pipeline testing |                   58.6 |
+| Johnson&Johnson | Data Modeling |                   55.2 |
+| Johnson&Johnson | Data Analysis Support |                   48.6 |
+
+
 ## 3.3 Decode the query
+
+### 3.3.1 Start working with worked and billable hours ratio
+Please describe in words what the following query does, what real-life problem it solves.
+The query runs correctly on the `capstone` schema. Running the query or just sections of the query and analyzing the results
+ should help you to understand the query.
+```sql
+WITH stat_202309 AS (SELECT SUM(hours_billable) / SUM(hours_worked) as billable_ratio
+                     FROM activity_logs al
+                              inner join activity_categories ac on al.activity_category_id = ac.id
+                     WHERE al.date_of_activity > TO_DATE('2023-08-31', 'YYYY-MM-DD')
+                       AND date_of_activity < TO_DATE('2023-10-01', 'YYYY-MM-DD')
+                     GROUP BY ac.id, ac.name, EXTRACT(MONTH FROM date_of_activity))
+SELECT ac.name, SUM(hours_billable) / SUM(hours_worked) as min_billable_ratio
+FROM activity_logs al
+         INNER JOIN activity_categories ac ON al.activity_category_id = ac.id
+WHERE al.date_of_activity > TO_DATE('2023-08-31', 'YYYY-MM-DD')
+  AND date_of_activity < TO_DATE('2023-10-01', 'YYYY-MM-DD')
+GROUP BY ac.id, ac.name, EXTRACT(MONTH FROM date_of_activity)
+HAVING SUM(hours_billable) / SUM(hours_worked) = (SELECT MIN(billable_ratio)
+                                                  FROM stat_202309)
+```
+
+```markdown
+Your answer goes here.
+```
+
+### 3.3.2 The answer is related to billable hours
+
+Please describe in words what the following query does, what real-life problem it solves.
+The query runs correctly on the `capstone` schema. Running the query and analyzing the results 
+should help you to understand the query.
+
+```sql
+set search_path to capstone;
+WITH stat_202309 AS (SELECT ac.id,
+                            ac.name,
+                            EXTRACT(MONTH FROM date_of_activity) as wmonth,
+                            SUM(hours_billable)                  as total_billable_hours
+                     FROM activity_logs al
+                              inner join activity_categories ac on al.activity_category_id = ac.id
+                     WHERE al.date_of_activity > TO_DATE('2023-08-31', 'YYYY-MM-DD')
+                       AND date_of_activity < TO_DATE('2023-10-01', 'YYYY-MM-DD')
+                     GROUP BY ac.id, ac.name, EXTRACT(MONTH FROM date_of_activity)),
+     stat_202310 AS (SELECT ac.id,
+                            ac.name,
+                            EXTRACT(MONTH FROM date_of_activity) as wmonth,
+                            SUM(hours_billable)                  as total_billable_hours
+                     FROM activity_logs al
+                              inner join activity_categories ac on al.activity_category_id = ac.id
+                     WHERE al.date_of_activity > TO_DATE('2023-09-30', 'YYYY-MM-DD')
+                       AND date_of_activity < TO_DATE('2023-11-01', 'YYYY-MM-DD')
+                     GROUP BY ac.id, ac.name, EXTRACT(MONTH FROM date_of_activity))
+
+SELECT stat_202309.name,
+       stat_202309.total_billable_hours,
+       stat_202310.total_billable_hours,
+       stat_202309.total_billable_hours - stat_202310.total_billable_hours as diff_hours
+FROM stat_202309
+         INNER JOIN stat_202310 ON stat_202309.id = stat_202310.id
+    AND stat_202309.total_billable_hours > stat_202310.total_billable_hours;
+```
+```markdown
+Your answer goes here.
+```
 
 ## 3.4 Correct the mistakes intentionally introduced in the query
 
@@ -555,5 +674,25 @@ Formulate your own assignment that:
 2. If possible, write a second alternative query that does not use a correlated subquery.
 
 ## 3.9 Solve SQL the crossword puzzle!
+Solve the SQL crossword puzzle below.
 
+![Crossword puzzle](crossword_puzzle.png)
+
+**Across:**  
+3. A collection of related data in a database.
+6. A virtual table based on the result-set of an SQL statement.(check the documentation)
+8. Operator used to combine result sets.
+10. SQL command to remove records.
+11. The main key in a database table.
+13. SQL command to retrieve data.
+14. Combining rows from two or more tables.
+
+**Down:**  
+1. SQL command to modify existing records.
+2. Used to speed up searches in a database.
+4. Clause used to group rows with similar values.
+5. SQL command to add new records.
+7. Clause used to filter records.
+9. Keyword used to return unique values.
+12. Command to modify an existing database object.
 
