@@ -1,8 +1,9 @@
 # Capstone project
 
-
-The objective of the capstone project is to encompass a broad range of topics discussed in the learning sessions.  
-As mentioned in the course announcement, the capstone project requires up to 6 hours rewarding work.
+The goal of the capstone project is to cover a wide array of subjects that have been addressed in the learning sessions.   
+While it may initially seem daunting, I am confident that as you delve into the assignments, you will find them captivating and enjoyable, 
+offering yet another excellent opportunity to apply the skills you've developed throughout the learning sessions.  
+As highlighted in the course announcement, the capstone project involves a fulfilling commitment of up to 6 hours of work.
 
 **Table of Contents**:
 
@@ -680,13 +681,13 @@ Solve the SQL crossword puzzle below.
 ![Crossword puzzle](crossword_puzzle.png)
 
 **Across:**  
-3. A collection of related data in a database.
-6. A virtual table based on the result-set of an SQL statement.(check the documentation)
-8. Operator used to combine result sets.
-10. SQL command to remove records.
-11. The main key in a database table.
-13. SQL command to retrieve data.
-14. Combining rows from two or more tables.
+3. A collection of related data in a database.  
+6. A virtual table based on the result-set of an SQL statement.(check the documentation)  
+8. Operator used to combine result sets.  
+10. SQL command to remove records.  
+11. The main key in a database table.  
+13. SQL command to retrieve data.  
+14. Combining rows from two or more tables.  
 
 **Down:**  
 1. SQL command to modify existing records.
