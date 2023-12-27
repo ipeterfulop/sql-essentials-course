@@ -60,6 +60,7 @@ structures, enhancing both its difficulty and engagement factor.
 
 The capstone project will be conducted in a dedicated schema, named `capstone`.
 
+![db_diagram_capstone.png](db_diagram_capstone.png)
 # 3. Assignments
 
 ## 3.1 Warm-up
@@ -618,7 +619,7 @@ Each number should be an integer. The range of these numbers should be between 1
 Display a list of the top 10 most frequently occurring random numbers from a set of 100 random numbers
 in the descending order of their frequency.
 
-** A possible output:** 10 rows
+**A possible output:** 10 rows
 
 | random\_number | nr\_occurrence |
 |---------------:|---------------:|
