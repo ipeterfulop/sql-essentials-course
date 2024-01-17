@@ -678,23 +678,23 @@ Formulate your own assignment that:
 ## 3.9 Solve SQL the crossword puzzle!
 Solve the SQL crossword puzzle below.
 
-![Crossword puzzle](crossword_puzzle.png)
+![Crossword puzzle](crossword_puzzle_01.png)
 
 **Across:**  
-3. A collection of related data in a database.  
-6. A virtual table based on the result-set of an SQL statement.(check the documentation)  
-8. Operator used to combine result sets.  
-10. SQL command to remove records.  
-11. The main key in a database table.  
-13. SQL command to retrieve data.  
-14. Combining rows from two or more tables.  
+**3.** A collection of related data in a database.  
+**6.** A virtual table based on the result-set of an SQL statement.(check the documentation)  
+**8.** Operator used to combine result sets.  
+**10.** SQL command to remove records.  
+**11.** The main key in a database table.  
+**13.** SQL command to retrieve data.  
+**14.** Combining rows from two or more tables.  
 
 **Down:**  
-1. SQL command to modify existing records.
-2. Used to speed up searches in a database.
-4. Clause used to group rows with similar values.
-5. SQL command to add new records.
-7. Clause used to filter records.
-9. Keyword used to return unique values.
-12. Command to modify an existing database object.
+**1.** SQL command to modify existing records.  
+**2.** Used to speed up searches in a database.  
+**4.** Clause used to group rows with similar values.  
+**5.** SQL command to add new records.  
+**7.** Clause used to filter records.  
+**9.** Keyword used to return unique values.  
+**12.** Command to modify an existing database object.  
 
